@@ -2,9 +2,36 @@
 <html lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Three Young Devs</title>
+
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Webseite im Aufbau</h1>
+    <header>
+       <nav>
+         <div id="navbar">
+           <div id="logo" class="reverse">
+             <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776;</div>
+             <div class="logo">Three<span> Young</span> Devs</div>
+
+           </div>
+           <div id="links">
+             <a href="index.html">Startseite</a>
+             <a href="login/login.html">Login</a>
+             <a href="">Downloads</a>
+             <a href="">Kontakt</a>
+           </div>
+         </div>
+
+       </nav>
+       <!-- Mobile Menu -->
+       <div id="mySidenav" class="sidenav">
+         <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="index.html">Startseite</a>
+         <a href="login/login.html">Login</a>
+         <a href="">Downloads</a>
+         <a href="">Kontakt</a>
+       </div>
+ </header>
   </body>
 </html>
